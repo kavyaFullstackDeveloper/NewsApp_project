@@ -12,7 +12,7 @@ let [category,setCategory] = useState("india");
 
 useEffect(()=> {
 
-fetch(`https://newsapi.org/v2/everything?q=${category}&from=2023-12-26&apiKey=1f0547f671544695a3b017deffd54897`)
+fetch(`https://newsapi.org/v2/everything?q=${category}&from=2023-11-27&sortBy=publishedAt&apiKey=1f0547f671544695a3b017deffd54897`)
 
 .then((response)=> response.json())
 

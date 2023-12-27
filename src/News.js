@@ -15,7 +15,7 @@ export default function  News(props) {
          
          </div>
 
-        <h1>{props.articletitle}</h1>
+        <h1>{props.article.title}</h1>
        
        <p>
         {props.article.description?.substring(0,100).concat("....")}<a href={props.article.url} target="_blank">Read More</a> </p> 
